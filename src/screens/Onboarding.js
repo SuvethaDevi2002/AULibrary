@@ -26,7 +26,7 @@ const Onboarding = () => {
         />
         </View>
           <Page
-            iconName= 'library'
+            iconName= 'book-reader'
             backgroundColor="#ffc93c"
             title="Welcome to AU Library"
           />
@@ -40,19 +40,19 @@ const Onboarding = () => {
         </View>
         <View key="2">
           <Page
-            backgroundColor="#07689f"
-            iconName="cloud-drizzle"
-            title="Get updates on weather"
+            backgroundColor="#ffc93c"
+            iconName="mobile-alt"
+            title="Knowledge is now in your hands"
           />
           <Footer
-            backgroundColor="#07689f"
+            backgroundColor="#ffc93c"
             leftButtonLabel="Back"
             leftButtonPress={() => {
               handlePageChange(0);
             }}
             rightButtonLabel="Continue"
             rightButtonPress={() => {
-              navigation.navigate('Home');
+              navigation.navigate('Login');
             }}
           />
         </View>
